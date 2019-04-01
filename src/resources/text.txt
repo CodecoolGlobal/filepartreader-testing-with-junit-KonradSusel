@@ -3,3 +3,4 @@ druga linijka
 trzecia linijka tutaj costam
 czwarta i za chwile bedzie piata
 i jest
+kajak palindrom

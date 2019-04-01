@@ -36,8 +36,11 @@ public class FilePartReader {
     public String readLines() throws IOException {
         String[] lines = read(filePath).split(System.getProperty("line.separator"));
         StringBuilder stringBuilder = new StringBuilder();
+        String ls = System.getProperty("line.separator");
+
         for (int i = fromLine; i <= toLine ; i++) {
             stringBuilder.append(lines[i-1]);
+            stringBuilder.append(ls);
         }
         return stringBuilder.toString();
     }
