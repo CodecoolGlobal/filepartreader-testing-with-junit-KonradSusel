@@ -40,7 +40,9 @@ public class FilePartReader {
 
         for (int i = fromLine; i <= toLine ; i++) {
             stringBuilder.append(lines[i-1]);
-            stringBuilder.append(ls);
+            if (i < toLine) {
+                stringBuilder.append(ls);
+            }
         }
         return stringBuilder.toString();
     }

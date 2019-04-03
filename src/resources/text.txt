@@ -1,4 +1,4 @@
-text testowy taki sobie lalalal
+pierwsza linijka
 druga linijka
 trzecia linijka tutaj costam
 czwarta i za chwile bedzie piata
